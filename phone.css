@@ -1,0 +1,28 @@
+.container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    justify-items: center;
+ }
+ #navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home p{
+    font-size: 13px;
+}

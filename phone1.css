@@ -1,0 +1,21 @@
+.container{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+ }
+ .pagination {
+    display: flex;
+    list-style: none;
+    margin: 50px 28px 28px;
+    outline: none;
+    justify-content: center;
+    
+}
+.pagination li a {
+    flex-direction: column;
+    padding-left: -10px;
+    font-size: 10px;
+   
+   
+}
